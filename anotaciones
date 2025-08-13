@@ -1,0 +1,20 @@
+recordatorio:
+si queda mas largo por usar columnas usar un div con container-fluid
+poner la media query al final sino no cambia nada (estuve 2 horas para darme cuenta)
+sempre terminar todo antes de empezar con la adaptacion a otros modelos de pantallas
+acordarse siempre de poner los .. para llamar al index o fotos
+simpre poner que sean 12 columnas la suma en desktop no 11 y que las columnas van dentro de class
+acordarse que puede cambiar una foto de formato png o jpg no solo sirve cambiar el nombre
+usar flexbox para acomodar y bootstrap solo para decorar
+usar grillas si no usas galeria de foto+texto
+apartir del proximo proyexto usar git (ya que iba avanzando poco a poco con el projecto clase por clase)
+------------------------------------------------------------------------------------------------------------------------------------------------------
+cambios a hacer para el proyecto final:
+cambiar los formularios mas adelante
+que el footer quede abajo (preguntar en siguiente clase porque no me dejo)
+mejorar el sistema de formularios para enviar opiniones y sacar turnos
+acordarse de poner el link en el logo final 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+cosas ya hechas:
+arreglar el llamado del css
+poner el subrallado de los links que recomendo el tutor
