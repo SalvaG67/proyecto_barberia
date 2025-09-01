@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $color-2;
+}
+
+main {
+  h1 {
+    text-align: center;
+    font-family: $font-1;
+    font-size: 60px;
+  }
+
+  p {
+    text-align: center;
+    font-family: $font-2;
+    font-size: 20px;
+  }
+}
+
+/* estilos para acerca_de y index */
+.titulo-base {
+  font-family: $font-1;
+  text-align: center;
+  font-weight: bold;
+}
+
+.titulo {
+  @extend .titulo-base;
+  font-size: 60px;
+}
+/* estilos para opinion y turnos */
+.titulo2 {
+  @extend .titulo-base;
+  font-size: 40px;
+  font-family: $font-3;
+}
+
+/* subrallar los links */
+.active {
+  text-decoration: underline;
+}
+
+/* estrellas */
+.rating {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 2rem;
+
+  &:not(:checked) > input {
+    position: absolute;
+    appearance: none;
+  }
+
+  &:not(:checked) > label {
+    float: right;
+    cursor: pointer;
+    font-size: 30px;
+    color: $color-3;
+  }
+
+  &:not(:checked) > label:before {
+    content: '★';
+  }
+
+  > input:checked + label:hover,
+  > input:checked + label:hover ~ label,
+  > input:checked ~ label:hover,
+  > input:checked ~ label:hover ~ label,
+  > label:hover ~ input:checked ~ label {
+    color: $color-4;
+  }
+
+  &:not(:checked) > label:hover,
+  &:not(:checked) > label:hover ~ label {
+    color: $color-5;
+  }
+
+  > input:checked ~ label {
+    color: $color-6;
+  }
+}

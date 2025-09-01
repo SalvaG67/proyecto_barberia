@@ -1,0 +1,38 @@
+header {
+  background-color: $color-1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px 20px;
+
+  .logo {
+    width: 150px;
+    height: 150px;
+  }
+
+  nav.animacion {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 0 20px;
+      
+
+    a {
+      color: white;
+      font-size: 25px;
+      text-decoration: none;
+
+      &.active {
+        text-decoration: underline;
+      }
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+
+footer {
+  background-color: $color-1;
+  text-align: right;
+}

@@ -1,0 +1,57 @@
+@media (max-width: 480px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+
+    .logo {
+      width: 100px;
+      height: auto;
+    }
+
+    nav {
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+      margin-top: 10px;
+
+      a {
+        font-size: 18px;
+        padding-left: 10px;
+      }
+    }
+  }
+
+  button {
+    display: block;
+    margin: 0 auto;
+  }
+
+  form {
+    input {
+      width: 50%;
+    }
+  }
+
+  .padre {
+    flex-direction: column;
+  }
+
+  .caja1,
+  .caja2,
+  .caja3 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .titulo {
+    font-size: 35px;
+  }
+
+  .titulo2 {
+    font-size: 28px;
+  }
+}
