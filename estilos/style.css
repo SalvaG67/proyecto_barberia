@@ -208,5 +208,43 @@ main p {
     font-size: 28px;
   }
 }
+@media (max-width: 1200px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+  header .logo {
+    width: 100px;
+    height: auto;
+  }
+  header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  header nav a {
+    font-size: 18px;
+    padding-left: 10px;
+  }
+  button {
+    display: block;
+    margin: 0 auto;
+  }
+  form input {
+    width: 50%;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .titulo {
+    font-size: 35px;
+  }
+  .titulo2 {
+    font-size: 28px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
