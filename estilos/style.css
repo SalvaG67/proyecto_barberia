@@ -31,18 +31,58 @@ header nav.animacion a:hover {
 footer {
   background-color: #355C7D;
   text-align: right;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}
+
+.container-formulario {
+  padding: 5px 5px;
+  max-width: 50%;
+  margin: 10px auto;
 }
 
 button {
   background-color: #355C7D;
   color: white;
   border: none;
-  padding: 0.5rem 1rem;
+  padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin: 20px auto 0;
+  display: block;
+  align-self: center;
 }
 button:hover {
+  background-color: rgb(37.8146067416, 65.6404494382, 89.1853932584);
+}
+
+form {
+  max-width: 600px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+}
+form label {
+  font-weight: bold;
+}
+form select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: "Fjalla One", sans-serif;
+  cursor: pointer;
+}
+form button {
+  background-color: #355C7D;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+form button:hover {
   background-color: rgb(37.8146067416, 65.6404494382, 89.1853932584);
 }
 

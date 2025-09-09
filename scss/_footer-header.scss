@@ -35,4 +35,7 @@ header {
 footer {
   background-color: $color-1;
   text-align: right;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
 }
