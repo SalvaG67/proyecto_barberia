@@ -163,6 +163,13 @@ main p {
   color: #ffa723;
 }
 
+/* mapa */
+.map {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
 @media (max-width: 480px) {
   header {
     flex-direction: column;
